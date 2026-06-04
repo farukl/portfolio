@@ -53,15 +53,14 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            <a
-              href="./resume.pdf"
-              download
-              className="navbar__cta"
-              onClick={() => setMenuOpen(false)}
-            >
-              Resume ↓
-            </a>
-          </li>
+      <a
+  href={`${import.meta.env.BASE_URL}farukCV.pdf`}
+  download
+  className="navbar__cta"
+>
+  Resume ↓
+</a>        
+        </li>
         </ul>
 
         <button
