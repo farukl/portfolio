@@ -72,3 +72,4 @@ All content (jobs, projects, skills, contact links) is in **`src/data.js`**. Edi
 
 To add your real resume PDF: place `resume.pdf` in the `public/` folder. The "Resume ↓" navbar button will link to it automatically.
 # portfolio
+# portfolio
