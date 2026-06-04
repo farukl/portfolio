@@ -1,0 +1,83 @@
+export const data = {
+  name: "Faruk Laçin",
+  role: "Full Stack Developer",
+  tagline: "Building production-grade systems — from registry checkout flows to distributed backends.",
+  contact: {
+    email: "faruklacin123@gmail.com",
+    linkedin: "https://www.linkedin.com/in/faruklacin/",
+    github: "https://github.com/farukl",
+  },
+  about: `I'm a full-stack developer with experience shipping production features across distributed systems — from e-commerce checkout flows to scalable backend architectures. I care about correctness, clean abstractions, and work that actually holds up in production. Currently building at TheDopple; previously at JuniusTech. Computer Science student at İstanbul Sabahattin Zaim University, graduating June 2026.`,
+  experience: [
+    {
+      company: "TheDopple",
+      role: "Full Stack Developer",
+      location: "California, USA (Remote)",
+      period: "March 2026 — Present",
+      current: true,
+      items: [
+        "Shipped and maintained production full-stack features across distributed frontend and backend systems, driving core product stability.",
+        "Owned key business flows — registry, checkout, and order management — ensuring data consistency and correct business logic end-to-end.",
+        "Implemented pricing and funding logic for the registry system, synchronizing totals accurately across cart, checkout, and registry pages.",
+        "Aligned authentication and checkout UI components with the internal design system to enforce consistent UX across critical flows.",
+        "Built backend-driven features including admin workflows, order visibility controls, and custom item approval processes.",
+        "Integrated Figma MCP workflow to bridge design and code, reducing friction in UI implementation.",
+        "Operated in a Git-based workflow with feature branches, pull requests, code reviews, and staged deployments.",
+      ],
+      tech: ["React", "Node.js", "PostgreSQL", "Git", "Figma MCP"],
+    },
+    {
+      company: "JuniusTech",
+      role: "Backend Developer",
+      location: "Istanbul, Turkey",
+      period: "June 2025 — March 2026",
+      current: false,
+      items: [
+        "Built production backend services using Node.js and Express.js.",
+        "Implemented JWT-based authentication and authorization for secure user management.",
+        "Designed MongoDB schemas and handled CRUD operations across multiple services.",
+        "Integrated Cloudinary for media upload and file management.",
+        "Worked on OLE, a cafe review and rating platform, from schema design to API delivery.",
+        "Collaborated with the team via Git and GitHub with structured code reviews.",
+      ],
+      tech: ["Node.js", "Express.js", "MongoDB", "JWT", "Cloudinary"],
+    },
+  ],
+  projects: [
+    {
+      name: "Fashion Finder",
+      subtitle: "Clothing Discovery Platform",
+      description: "A full-stack platform that aggregates clothing items from multiple e-commerce sources. Scrapes, normalizes, and indexes product data so users can discover and compare fashion items in one place.",
+      tech: ["Node.js", "Express.js", "MongoDB", "ScrapingBee"],
+      highlights: [
+        "Web scraping pipeline via ScrapingBee aggregating products from multiple stores",
+        "Normalization layer for consistent cross-source product display",
+        "Filtering and search architecture built on MongoDB",
+      ],
+    },
+    {
+      name: "Email Service Migration",
+      subtitle: "System Architecture Project",
+      description: "Migrated a legacy SendGrid email system to a modular, provider-agnostic architecture. Replaced static templates with a dynamic Jinja2 rendering layer, enabling scalable transactional email flows.",
+      tech: ["Node.js", "SendGrid", "Jinja2", "PostgreSQL"],
+      highlights: [
+        "Provider-agnostic adapter layer for future email provider flexibility",
+        "Dynamic Jinja2 template engine replacing brittle static templates",
+        "Transactional flows for registration, notifications, and sharing",
+      ],
+    },
+  ],
+  skills: {
+    Languages: ["JavaScript", "TypeScript", "Python", "Java", "SQL", "HTML", "CSS"],
+    Frontend: ["React", "REST APIs", "HTML/CSS"],
+    Backend: ["Node.js", "Express.js", "FastAPI", "Django", "SpringBoot", "JWT"],
+    Databases: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+    Tools: ["Git", "GitHub", "Docker", "Postman", "Cloudinary", "VS Code"],
+  },
+  education: {
+    school: "İstanbul Sabahattin Zaim University",
+    degree: "Bachelor of Arts in Computer Science",
+    period: "September 2022 — June 2026",
+    location: "Istanbul, Turkey",
+  },
+}
